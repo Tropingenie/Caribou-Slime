@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ESP32-C3_SUPERMINI")(type "KiCad")(uri "${KIPRJMOD}/eCAD/ESP32-C3_SUPERMINI")(options "")(descr ""))
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/eCAD/BMI270")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/eCAD/TP4056_Board/Library.pretty")(options "")(descr ""))
+  (lib (name "TP4056_Charging_Board")(type "KiCad")(uri "${KIPRJMOD}/eCAD/TP4056_Board/TP4056_Charging_Board.pretty")(options "")(descr ""))
 )
