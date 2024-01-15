@@ -9,3 +9,9 @@ SlimeVR PCB using ESP32-C3 and BMI 270
 | Power Switches  | TBD                          |        |          |                    |                                                                                                                                                                                                                  |
 | Diodes          | TBD                          |        |          |                    |                                                                                                                                                                                                                  |
 | Resistors       | TBD                          |        |          |                    |                                                                                                                                                                                                                  |
+
+## EDA Files
+EDA files are from a variety of sources, since there is no point in reinventing the wheel. At this current stage, they are assumed correct but have not been tested for accuracy.
+- [BMI270](https://www.snapeda.com/parts/BMI270/Bosch%20Sensortec/view-part/) from SnapEDA
+- [ESP32 C2 SuperMini](https://www.snapeda.com/parts/ESP32-C3%20SuperMini/Espressif%20Systems/view-part/) from SnapEDA
+- [TP4056 Charging Board](https://www.youtube.com/watch?v=d5fERUHO1Lw) footprint copied from YouTube, schematic by observation
