@@ -1,4 +1,6 @@
 SlimeVR PCB using ESP32-C3 and BMI 270
+## Methodology
+This design is intended to be assembled either completely by hand, or with some PCBA and finished by hand. Component selection is built around this, prioritizing larger form factor SMT components where possible, to ensure compatibility with and minimizing cost of the PCBA, while maintaining relatively simple assembly when done by hand.
 ## BOM
 |    Component    |            Choice            | Amount | Cost per | Cost with Shipping |                                                                                                    Quick Link                                                                                                    |
 |:---------------:|:----------------------------:|:------:|:--------:|:------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -11,9 +13,15 @@ SlimeVR PCB using ESP32-C3 and BMI 270
 | Resistors       | 1206 5% (See schematic)      |        |          |                    |                                                                                                                                                                                                                  |
 | Capacitors      | 1206 5% (See schematic)      |        |          |                    |                                                                                                                                                                                                                  |
 
-## EDA Files
-EDA files are from a variety of sources, since there is no point in reinventing the wheel. At this current stage, they are assumed correct but have not been tested for accuracy.
+## Acknowledgement
+EDA files are from various sources, since there is no point in reinventing the wheel. At this stage, they are assumed to be correct, but have not been tested for accuracy.
 - [BMI270](https://www.snapeda.com/parts/BMI270/Bosch%20Sensortec/view-part/) from SnapEDA
 - [ESP32 C2 SuperMini](https://www.snapeda.com/parts/ESP32-C3%20SuperMini/Espressif%20Systems/view-part/) from SnapEDA
 - [TP4056 Charging Board](https://www.youtube.com/watch?v=d5fERUHO1Lw) footprint copied from YouTube, schematic by observation
-- [EG1270](https://www.snapeda.com/parts/EG1270/E-Switch/view-part/)
+- [EG1270](https://www.snapeda.com/parts/EG1270/E-Switch/view-part/) from SnapEDA
+
+Assistance from various sources was used in this project, in addition to readily available datasheets. In particular, the following people and sources have contributed to this project:
+- [SlimeVR Docs](https://docs.slimevr.dev/diy/index.html) for general SlimeVR schematics
+- [SlimeVR Discord](https://discord.gg/SlimeVR) for general assisance
+- [KounoLab](https://store.kouno.xyz/products/bmi270-breakout-board) for additional BMI270 schematics
+- @simp_360 on Discord for diode and passive component selection
