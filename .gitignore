@@ -4,6 +4,9 @@
 # Semaphore
 *.lck
 
+# npm crap
+package.json
+
 # GitHub Template below
 
 # For PCBs designed using KiCad: https://www.kicad.org/
