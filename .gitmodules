@@ -1,0 +1,3 @@
+[submodule "Outputs/SlimeVR-Hyperion-BMI160-PCB"]
+	path = Outputs/SlimeVR-Hyperion-BMI160-PCB
+	url = https://github.com/Lupinixx/SlimeVR-Hyperion-BMI160-PCB
