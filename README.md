@@ -26,3 +26,4 @@ Assistance from various sources was used in this project, in addition to readily
 - [SlimeVR Discord](https://discord.gg/SlimeVR) for general assisance
 - [KounoLab](https://store.kouno.xyz/products/bmi270-breakout-board) for additional BMI270 schematics
 - @simp_360 on Discord for diode and passive component selection
+- [Lupinixx](https://github.com/Lupinixx/SlimeVR-Hyperion-BMI160-PCB) and [Smeltie](https://github.com/Smeltie/Hyperion) for the Hyperion case and board outline
