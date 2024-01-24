@@ -27,3 +27,4 @@ Assistance from various sources was used in this project, in addition to readily
 - [KounoLab](https://store.kouno.xyz/products/bmi270-breakout-board) for additional BMI270 schematics
 - @simp_360 on Discord for diode and passive component selection
 - @hayashii._ on Discord for IP2312 recommendation and datasheet
+- Meia (@cosmic_heart on Discord) for IP2312 schematic suggestion
