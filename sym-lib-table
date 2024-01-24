@@ -4,4 +4,5 @@
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/eCAD/BMI270/BMI270.kicad_sym")(options "")(descr ""))
   (lib (name "TP4056_Board")(type "KiCad")(uri "${KIPRJMOD}/eCAD/TP4056_Board/TP4056_Board.kicad_sym")(options "")(descr ""))
   (lib (name "EG1270")(type "KiCad")(uri "${KIPRJMOD}/eCAD/EG1270/EG1270.kicad_sym")(options "")(descr ""))
+  (lib (name "DW01A")(type "KiCad")(uri "${KIPRJMOD}/eCAD/TP4056_Board/DW01A.kicad_sym")(options "")(descr ""))
 )

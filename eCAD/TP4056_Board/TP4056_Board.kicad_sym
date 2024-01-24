@@ -12,13 +12,11 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "TP4056_0_1"
+    (symbol "TP4056_1_1"
       (rectangle (start -6.35 17.78) (end 6.35 1.27)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "TP4056_1_1"
       (text "TP4056" (at 0 11.43 0)
         (effects (font (size 1.27 1.27)))
       )
