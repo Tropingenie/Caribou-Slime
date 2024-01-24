@@ -2163,7 +2163,7 @@
     (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp fdebbd73-7719-4f49-ace3-772684f42a51))
   (gr_rect (start 33.274 25.654) (end 69.342 54.102)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 03bb2df5-0b5f-4ce8-a0d7-eafd435b8f35))
-  (gr_text "Caribou Slime\nV1.0.1\nBy Pon Pon" (at 68.834 42.418) (layer "B.SilkS") (tstamp b5e7d0d8-f08a-49f6-8bf3-306917c4c7c9)
+  (gr_text "Caribou Slime\nV1.1\nBy Pon Pon" (at 68.834 42.418) (layer "B.SilkS") (tstamp b5e7d0d8-f08a-49f6-8bf3-306917c4c7c9)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "-" (at 38.1 51.054) (layer "F.SilkS") (tstamp 85ddc07c-e9b2-4a5c-9e7c-a48277eccf00)
