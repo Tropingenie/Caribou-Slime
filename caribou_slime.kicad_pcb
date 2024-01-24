@@ -103,8 +103,9 @@
   (net 24 "Net-(U1-GPIO0)")
   (net 25 "Net-(U3-OUT-)")
   (net 26 "unconnected-(S1-Pad3)")
-  (net 27 "/B+")
-  (net 28 "/B-")
+  (net 27 "unconnected-(U3---Pad2)")
+  (net 28 "/B+")
+  (net 29 "/B-")
 
   (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" (layer "F.Cu")
     (tstamp 000747cd-a164-4aa5-90bd-fd68b292e9ba)
@@ -200,9 +201,9 @@
     (fp_line (start 3.95 2.8) (end 3.95 -1.7)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 555e714b-a7eb-41b7-baea-def92f7c1302))
     (pad "1" thru_hole roundrect (at 0 0 180) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.208333)
-      (net 28 "/B-") (pinfunction "Pin_1") (pintype "passive") (tstamp 24552ea0-e816-4a1c-add4-d8c38b1ce07b))
+      (net 29 "/B-") (pinfunction "Pin_1") (pintype "passive") (tstamp 24552ea0-e816-4a1c-add4-d8c38b1ce07b))
     (pad "2" thru_hole oval (at 2 0 180) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask")
-      (net 27 "/B+") (pinfunction "Pin_2") (pintype "passive") (tstamp 14dc4b35-750d-4128-9c0c-105e275d9d80))
+      (net 28 "/B+") (pinfunction "Pin_2") (pintype "passive") (tstamp 14dc4b35-750d-4128-9c0c-105e275d9d80))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
