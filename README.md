@@ -1,20 +1,24 @@
 SlimeVR PCB using ESP32-C3 and BMI 270
 ## Methodology
 This design is intended to be assembled either completely by hand, or with some PCBA and finished by hand. Component selection is built around this, prioritizing larger form factor SMT components where possible, to ensure compatibility with and minimizing cost of the PCBA, while maintaining relatively simple assembly when done by hand.
-## BOM
+## Assembly
+### BOM
 |    Component    |            Choice            | Amount | Cost per | Cost with Shipping |                                                                           Quick Link                                                                                                            |
 |:---------------:|:----------------------------:|:------:|:--------:|:------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | Microcontroller | ESP32-C3 Supermini Dev Board | 12     | $2.90    | ~$41               | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html), [Schematic](https://web.archive.org/web/20240114192237/https://www.tindie.com/products/adz1122/esp32-c3-development-board-esp32-supermini/) |
 | IMU             | BMI270                       | 12     | $1.75    | ~$26               | [AliExpress](https://www.aliexpress.com/item/1005005001642144.html), [Datasheet](https://web.archive.org/web/20240114195617/https://www.mouser.ca/datasheet/2/783/bst_bmi270_ds000-2529306.pdf), [Schematic](https://web.archive.org/web/20240115041534/http://cdn.kouno.xyz/pKyF5w64.pdf) |
 | Batteries       | 603040 800mAh                | 10     | $3.50    | ~$31               | [AliExpress](https://www.aliexpress.com/item/1005005413532176.html)                                                                                                                             |
-| Charging Board  | TP4056 USB-C                 | 15     | $0.329   | ~$5                | [AliExpress](https://www.aliexpress.com/item/1005005708749053.html)                                                                                                                             |
+| Charging IC     | TP4056                       |        |          |                    | [Datasheet](https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf)                |
+| Battery Prot IC | FS312F-G                     |        |          |                    | [Datasheet](https://www.ic-fortune.com/upload/Download/FS312F-G-DS-10_EN.pdf)   |
+| PMOSFET         | AO3415                       | 100    | $0.0412  | ~$4                | [AliExpress](https://www.aliexpress.us/item/1005005002412293.html), [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1116/AO3415.pdf)                                   |
+| LDO Regulator   | ME6211C33M5G                 | 0      |          |                    | [AliExpress](https://www.aliexpress.us/item/1005004750759692.html), [Datasheet](https://stm32-base.org/assets/pdf/regulators/ME6211.pdf)                                                        |
 | Power Switches  | EG1270/MSK-12D19             | 10     | $0.085   | ~$3                | [EG Datasheet](https://www.snapeda.com/parts/EG1270/E-Switch/datasheet/), [MSK Datasheet](http://www.intechswitch.com/products/SideKnobToggleslideswitchseries/641.html), [MSK AliExpress](https://www.aliexpress.com/item/1005006241343643.html) |
 | Diodes          | B5817W                       | 50     |          | ~$3                | [AliExpress](https://www.aliexpress.com/item/1005005562043696.html), [Datasheet](https://jlcpcb.com/partdetail/Hongjiacheng-B5817W/C7420328)                                                    |
 | Resistors       | 0805 180k 5% (See schematic) | 100    |          | ~$2                | [AliExpress](https://www.aliexpress.com/item/4000996637737.html)                                                                                                                                |
 | Resistors       | 0805 10k 5% (See schematic)  | 100    |          | ~$2                | [AliExpress](https://www.aliexpress.com/item/4000996637737.html)                                                                                                                                |
 | Capacitors      | 0805 100nF 5% (See schematic)| 100    |          | ~$2                | [AliExpress](https://www.aliexpress.com/item/1005006285113165.html)                                                                                                                             |
 | PCB             | Upload Gerbers               | 5      | $0.538   | ~$4                | [JLCPCB](https://jlcpcb.com/)                                                                                                                                                                   |
-## Acknowledgement
+## Acknowledgements
 EDA files are from various sources, since there is no point in reinventing the wheel. At this stage, they are assumed to be correct, but have not been tested for accuracy.
 - [BMI270](https://www.snapeda.com/parts/BMI270/Bosch%20Sensortec/view-part/) from SnapEDA
 - [ESP32 C2 SuperMini](https://www.snapeda.com/parts/ESP32-C3%20SuperMini/Espressif%20Systems/view-part/) from SnapEDA
