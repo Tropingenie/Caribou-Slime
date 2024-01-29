@@ -1245,6 +1245,7 @@
   (no_connect (at 69.85 62.23) (uuid 4b4dc165-018b-421c-8810-a4962b10391b))
   (no_connect (at 274.32 62.23) (uuid 4b4e370e-66f1-4241-98de-86110829f424))
   (no_connect (at 69.85 64.77) (uuid 54980c0a-9077-4e64-897b-c631b4edad26))
+  (no_connect (at 218.44 40.64) (uuid 5fecb4fb-e8aa-4469-8574-57a90699f5cc))
   (no_connect (at 107.95 171.45) (uuid 6147ad0d-4376-48dc-b183-1483d7db8449))
   (no_connect (at 69.85 57.15) (uuid a13a67ec-f9c0-4b86-b2f9-c78773ec3186))
   (no_connect (at 77.47 151.13) (uuid a53da198-62b4-4d5e-882d-efab3be76616))
@@ -1883,7 +1884,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7654b503-4211-464d-ae03-b639b36933a9)
   )
-  (text "Use https://ledcalculator.net/ to calculate exact \nresistances required and populate/shunt as needed"
+  (text "Populate/shunt as needed\nto program LED brightness"
     (at 213.36 77.47 0)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 960193e2-28a3-4ddd-a028-a02addf7a9b5)
@@ -1929,10 +1930,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VBATT" (shape input) (at 21.59 54.61 180) (fields_autoplaced)
+  (global_label "VBAT" (shape input) (at 21.59 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a8934205-e26d-48fa-b56f-cf3ed7243dbc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 13.2224 54.61 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.19 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1988,13 +1989,13 @@
   (symbol (lib_id "Device:C") (at 252.73 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02909c1f-096d-4a33-816c-d020108cb9b2)
-    (property "Reference" "C8" (at 256.54 77.47 0)
+    (property "Reference" "C5" (at 256.54 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 256.54 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical" (at 253.6952 72.39 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 253.6952 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 76.2 0)
@@ -2005,7 +2006,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "C8") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2014,7 +2015,7 @@
   (symbol (lib_id "Device:R") (at 205.74 67.31 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cd10911-f679-47fc-968b-a7a234f67e96)
-    (property "Reference" "R14" (at 203.2 66.04 0)
+    (property "Reference" "R12" (at 203.2 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 203.2 68.58 0)
@@ -2031,7 +2032,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R14") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2040,7 +2041,7 @@
   (symbol (lib_id "Device:R") (at 26.67 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19cc66b9-9b01-43a2-b661-881772a3dcc6)
-    (property "Reference" "R3" (at 26.67 48.26 90)
+    (property "Reference" "R1" (at 26.67 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180k" (at 26.67 50.8 90)
@@ -2057,7 +2058,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2066,10 +2067,10 @@
   (symbol (lib_id "Device:R") (at 196.85 54.61 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b868769-a743-4734-8561-8e9b44963caf)
-    (property "Reference" "R4" (at 194.31 53.34 0)
+    (property "Reference" "R10" (at 194.31 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100" (at 194.31 55.88 0)
+    (property "Value" "1k" (at 194.31 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 195.072 54.61 90)
@@ -2083,7 +2084,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R4") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2119,7 +2120,7 @@
   (symbol (lib_id "power:+3V3") (at 274.32 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f7a414c-15a2-479d-8d14-8e3f7e6340b8)
-    (property "Reference" "#PWR09" (at 274.32 40.64 0)
+    (property "Reference" "#PWR012" (at 274.32 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 274.32 31.75 0)
@@ -2135,7 +2136,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2144,7 +2145,7 @@
   (symbol (lib_id "TP4056_Board:FS8205A") (at 132.08 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 255281af-fbe6-41ba-8782-9f4d6f7d0b29)
-    (property "Reference" "U6" (at 132.08 44.45 0)
+    (property "Reference" "U4" (at 132.08 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FS8205A" (at 132.08 60.96 0)
@@ -2167,7 +2168,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2176,7 +2177,7 @@
   (symbol (lib_id "Device:R") (at 123.19 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c23b9bc-9892-4581-9bb9-652cac5ccfd1)
-    (property "Reference" "R8" (at 125.73 71.12 0)
+    (property "Reference" "R5" (at 125.73 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 125.73 73.66 0)
@@ -2193,7 +2194,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2202,7 +2203,7 @@
   (symbol (lib_id "Device:R") (at 59.69 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36c4857b-9058-47f9-992c-66cd9d8aec46)
-    (property "Reference" "R1" (at 62.23 149.86 0)
+    (property "Reference" "R3" (at 62.23 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 62.23 152.4 0)
@@ -2219,7 +2220,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2228,7 +2229,7 @@
   (symbol (lib_id "power:+3V3") (at 120.65 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38673d0d-d016-4f32-9310-38f6565996e8)
-    (property "Reference" "#PWR04" (at 120.65 147.32 0)
+    (property "Reference" "#PWR07" (at 120.65 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 120.65 138.43 0)
@@ -2244,7 +2245,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2253,7 +2254,7 @@
   (symbol (lib_id "power:+5V") (at 72.39 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e309fd4-36a7-49a1-8a8b-82ff7ef6f57c)
-    (property "Reference" "#PWR08" (at 72.39 40.64 0)
+    (property "Reference" "#PWR03" (at 72.39 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 72.39 31.75 0)
@@ -2269,7 +2270,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2278,7 +2279,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ff3a79f-935a-4ac3-ae91-e896cf8b8b85)
-    (property "Reference" "#PWR03" (at 187.96 40.64 0)
+    (property "Reference" "#PWR09" (at 187.96 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 31.75 0)
@@ -2294,7 +2295,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2303,7 +2304,7 @@
   (symbol (lib_id "Device:R") (at 96.52 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 472707e7-ed33-4588-b63f-851343ba415b)
-    (property "Reference" "R7" (at 93.98 44.45 0)
+    (property "Reference" "R4" (at 93.98 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 93.98 46.99 0)
@@ -2320,7 +2321,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2329,7 +2330,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 220.98 45.72 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48985123-c575-4dde-a905-72979d499a26)
-    (property "Reference" "S2" (at 226.06 44.45 90)
+    (property "Reference" "S1" (at 226.06 44.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "EG1270" (at 226.06 46.99 90)
@@ -2350,7 +2351,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "S2") (unit 1)
+          (reference "S1") (unit 1)
         )
       )
     )
@@ -2359,7 +2360,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 220.98 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 55c02cca-f9cd-4ce4-95ff-7c9207f230b5)
-    (property "Reference" "D4" (at 223.52 58.42 90)
+    (property "Reference" "D3" (at 223.52 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "B5817W" (at 223.52 60.96 90)
@@ -2382,7 +2383,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2391,7 +2392,7 @@
   (symbol (lib_id "Device:LED") (at 207.01 45.72 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e47ede7-2026-4956-a336-f14cebdef4ab)
-    (property "Reference" "D1" (at 209.55 46.0375 90)
+    (property "Reference" "D2" (at 209.55 46.0375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GRE" (at 209.55 48.5775 90)
@@ -2408,16 +2409,16 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:R") (at 213.36 67.31 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 644ab666-2b7c-4a35-989a-c100a83b9e9d)
-    (property "Reference" "R15" (at 210.82 66.04 0)
+    (property "Reference" "R14" (at 210.82 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 210.82 68.58 0)
@@ -2434,7 +2435,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2468,7 +2469,7 @@
   (symbol (lib_id "Device:R") (at 233.68 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7263bf0c-5a8e-4947-ac3b-312a231b6f11)
-    (property "Reference" "R6" (at 236.22 74.93 0)
+    (property "Reference" "R15" (at 236.22 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180k" (at 236.22 77.47 0)
@@ -2485,7 +2486,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R6") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2494,13 +2495,13 @@
   (symbol (lib_id "Device:C") (at 275.59 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 777554fa-1125-4717-9a97-9b94974a852f)
-    (property "Reference" "C9" (at 279.4 77.47 0)
+    (property "Reference" "C6" (at 279.4 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 279.4 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical" (at 276.5552 72.39 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 276.5552 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.59 76.2 0)
@@ -2511,7 +2512,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "C9") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2520,7 +2521,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 246.38 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ac5406e-1ebc-4b82-9055-38af082b5829)
-    (property "Reference" "D3" (at 245.11 71.12 0)
+    (property "Reference" "D4" (at 245.11 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "B5817W" (at 242.57 73.66 0)
@@ -2543,7 +2544,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2629,7 +2630,7 @@
   (symbol (lib_id "power:GND") (at 175.26 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 805e0700-c20d-4264-abbf-8be5813d3ee0)
-    (property "Reference" "#PWR010" (at 175.26 96.52 0)
+    (property "Reference" "#PWR08" (at 175.26 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 95.25 0)
@@ -2645,7 +2646,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2679,7 +2680,7 @@
   (symbol (lib_id "Device:R") (at 154.94 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 891cf379-6444-4560-a840-949398d07b7b)
-    (property "Reference" "R9" (at 152.4 66.04 0)
+    (property "Reference" "R6" (at 152.4 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 152.4 68.58 0)
@@ -2696,7 +2697,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2705,7 +2706,7 @@
   (symbol (lib_id "Regulator_Linear:ADP7142AUJZ-3.3") (at 264.16 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a24f163-14fe-4db3-853a-d8f9029cadbd)
-    (property "Reference" "U4" (at 264.16 55.88 0)
+    (property "Reference" "U6" (at 264.16 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ME6211C33M5G" (at 264.16 53.34 0)
@@ -2725,7 +2726,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "U4") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2734,7 +2735,7 @@
   (symbol (lib_id "Device:LED") (at 196.85 45.72 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92eaeca1-5d4d-4c68-bc25-657f456bfb2c)
-    (property "Reference" "D2" (at 199.39 46.0375 90)
+    (property "Reference" "D1" (at 199.39 46.0375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RED" (at 199.39 48.5775 90)
@@ -2751,7 +2752,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2760,7 +2761,7 @@
   (symbol (lib_id "DW01A:DW01A") (at 111.76 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9432c48e-bc1b-4352-b692-def98a480612)
-    (property "Reference" "U5" (at 111.76 46.99 0)
+    (property "Reference" "U3" (at 111.76 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FS312F-G" (at 111.76 60.96 0)
@@ -2781,7 +2782,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2790,13 +2791,13 @@
   (symbol (lib_id "Device:C") (at 148.59 49.53 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cd19cd7-2f12-4463-a6b1-96ac99e6d6e9)
-    (property "Reference" "C3" (at 152.4 50.8 0)
+    (property "Reference" "C4" (at 152.4 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 152.4 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical" (at 149.5552 45.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 149.5552 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 49.53 0)
@@ -2807,7 +2808,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2816,7 +2817,7 @@
   (symbol (lib_id "power:+3V3") (at 72.39 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a85a48f3-6782-434c-a181-36d5f9ceca9a)
-    (property "Reference" "#PWR06" (at 72.39 148.59 0)
+    (property "Reference" "#PWR04" (at 72.39 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 72.39 139.7 0)
@@ -2832,7 +2833,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2841,7 +2842,7 @@
   (symbol (lib_id "TP4056_Board:TP4056") (at 173.99 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a978214d-b368-4418-91b7-c659f7961c5b)
-    (property "Reference" "U3" (at 173.99 46.99 0)
+    (property "Reference" "U5" (at 173.99 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP4056" (at 173.99 67.31 0)
@@ -2864,7 +2865,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2949,7 +2950,7 @@
   (symbol (lib_id "Device:R") (at 190.5 67.31 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccbeb420-1195-420f-b02b-385e1a21a373)
-    (property "Reference" "R12" (at 187.96 66.04 0)
+    (property "Reference" "R9" (at 187.96 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 187.96 68.58 0)
@@ -2966,7 +2967,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R12") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2975,7 +2976,7 @@
   (symbol (lib_id "Device:C") (at 127 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ceff0aba-1029-42d5-a1a6-3e83dc9f4200)
-    (property "Reference" "C2" (at 130.81 149.86 0)
+    (property "Reference" "C3" (at 130.81 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 130.81 152.4 0)
@@ -2992,7 +2993,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3001,13 +3002,13 @@
   (symbol (lib_id "Device:C") (at 113.03 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d691f097-1964-4f87-8a0e-ed550322080e)
-    (property "Reference" "C1" (at 116.84 149.86 0)
+    (property "Reference" "C2" (at 116.84 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 116.84 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical" (at 113.9952 154.94 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 113.9952 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 151.13 0)
@@ -3018,7 +3019,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3027,7 +3028,7 @@
   (symbol (lib_id "power:+5V") (at 233.68 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcb45846-3237-468e-9327-8c8771b995ab)
-    (property "Reference" "#PWR011" (at 233.68 40.64 0)
+    (property "Reference" "#PWR010" (at 233.68 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 233.68 31.75 0)
@@ -3043,7 +3044,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3052,7 +3053,7 @@
   (symbol (lib_id "Device:R") (at 154.94 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd1d8be2-156e-4043-b87d-2874af8ead33)
-    (property "Reference" "R10" (at 152.4 76.2 0)
+    (property "Reference" "R7" (at 152.4 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 152.4 78.74 0)
@@ -3069,16 +3070,16 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:R") (at 198.12 67.31 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid e61557e4-5d5d-4be7-a87b-a9444f975481)
-    (property "Reference" "R13" (at 195.58 66.04 0)
+    (property "Reference" "R11" (at 195.58 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 195.58 68.58 0)
@@ -3095,7 +3096,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3104,7 +3105,7 @@
   (symbol (lib_id "power:+3V3") (at 80.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e76eb7d8-5bd2-4186-be46-36a3506a304e)
-    (property "Reference" "#PWR07" (at 80.01 40.64 0)
+    (property "Reference" "#PWR05" (at 80.01 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 80.01 31.75 0)
@@ -3120,7 +3121,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3129,7 +3130,7 @@
   (symbol (lib_id "Device:C") (at 96.52 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea7a0135-68e7-44dd-b32b-35c3b3a4b615)
-    (property "Reference" "C10" (at 92.71 53.34 0)
+    (property "Reference" "C1" (at 92.71 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 92.71 55.88 0)
@@ -3146,7 +3147,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "C10") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3155,7 +3156,7 @@
   (symbol (lib_id "power:GND") (at 264.16 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec8f0795-5a39-422d-b8c3-1fb4d8fa57a5)
-    (property "Reference" "#PWR014" (at 264.16 96.52 0)
+    (property "Reference" "#PWR011" (at 264.16 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 95.25 0)
@@ -3171,7 +3172,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3180,7 +3181,7 @@
   (symbol (lib_id "power:GND") (at 113.03 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edf23350-3441-41a9-97bc-ab7c4703e10a)
-    (property "Reference" "#PWR05" (at 113.03 186.69 0)
+    (property "Reference" "#PWR06" (at 113.03 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 185.42 0)
@@ -3196,7 +3197,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3205,10 +3206,10 @@
   (symbol (lib_id "Device:R") (at 207.01 54.61 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eecd6f30-4e1d-489a-a611-cf8e2c191f39)
-    (property "Reference" "R5" (at 204.47 53.34 0)
+    (property "Reference" "R13" (at 204.47 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100" (at 204.47 55.88 0)
+    (property "Value" "1k" (at 204.47 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 205.232 54.61 90)
@@ -3222,7 +3223,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R5") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3231,7 +3232,7 @@
   (symbol (lib_id "Device:R") (at 162.56 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f56a7416-51d8-4641-b2fe-22e33d4188fa)
-    (property "Reference" "R11" (at 160.02 76.2 0)
+    (property "Reference" "R8" (at 160.02 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 160.02 78.74 0)
@@ -3248,7 +3249,7 @@
     (instances
       (project "caribou_slime"
         (path "/61bfc64c-87c3-434a-8ade-1f9e7b05e459"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
