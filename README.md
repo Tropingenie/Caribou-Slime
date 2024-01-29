@@ -41,3 +41,4 @@ Assistance from various sources was used in this project, in addition to readily
 - @hayashii._ on Discord for IP2312 recommendation and datasheet
 - Meia (@cosmic_heart on Discord) for IP2312 schematic suggestion
 - Penny (@actuallypenny on Discord) for help with the regulator circuit
+- @holylemon89 for ESP32-C3 battery sense defines
