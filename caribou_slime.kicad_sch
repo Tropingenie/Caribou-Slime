@@ -2620,7 +2620,7 @@
     (property "Value" "BMI270" (at 92.71 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "BMI270:XDCR_BMI270" (at 92.71 161.29 0)
+    (property "Footprint" "BMI270:XDCR_BMI270_HandSolder" (at 92.71 161.29 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 92.71 161.29 0)
