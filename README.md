@@ -36,7 +36,8 @@ Assistance from various sources was used in this project, in addition to readily
 - @hayashii._ on Discord for IP2312 recommendation and datasheet
 - Meia (@cosmic_heart on Discord) for IP2312 schematic suggestion
 - Penny (@actuallypenny on Discord) for help with the regulator circuit
-- @gorbit99 and @nekomana_w_ for general advice
+- @nekomana_w_ for general advice
+- @gorbit for general advice and 3D models
 - [Lupinixx](https://github.com/Lupinixx/SlimeVR-Hyperion-BMI160-PCB) and [Smeltie](https://github.com/Smeltie/Hyperion) for the Hyperion case and board outline
 - @hayashii._ on Discord for IP2312 recommendation and datasheet
 - Meia (@cosmic_heart on Discord) for IP2312 schematic suggestion

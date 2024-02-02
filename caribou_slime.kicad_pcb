@@ -1902,7 +1902,7 @@
     (property "ki_keywords" "diode Schottky")
     (path "/55c02cca-f9cd-4ce4-95ff-7c9207f230b5")
     (attr smd)
-    (fp_text reference "D3" (at -2.3645 0 -180) (layer "F.SilkS")
+    (fp_text reference "D3" (at -2.3645 0) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f48b3ac-c5de-4b89-8362-5758def9af38)
     )
@@ -1942,7 +1942,7 @@
       (net 9 "+5V") (pinfunction "K") (pintype "passive") (tstamp f1e8b5b9-bf40-49e0-8b95-f7eacdfbfde0))
     (pad "2" smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 20 "Net-(D3-A)") (pinfunction "A") (pintype "passive") (tstamp 4fe9129b-d64e-44df-b074-5601e020cc21))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2161,6 +2161,11 @@
       (net 23 "SCL") (pinfunction "SCX") (pintype "input") (solder_mask_margin 0.102) (tstamp e4b94a80-4538-4f35-bc56-55a4aa743ff9))
     (pad "14" smd rect (at -0.5 -1.0995 90) (size 0.849 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 22 "SDA") (pinfunction "SDX") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp b8833c6b-4506-46ad-84f8-7ee460343e6c))
+    (model ":KICAD7_3DMODEL_DIR:Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
@@ -2653,6 +2658,11 @@
           )
           (width 0.2) (fill yes))
       ) (tstamp da46094d-53ec-4bca-85ed-5760c532b772))
+    (model "${KIPRJMOD}/eCAD/ESP32-C3_SUPERMINI/ESP32-C3_supermini_v5.step"
+      (offset (xyz -20 -6.5 -3.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
@@ -3356,7 +3366,7 @@
     (pad "8" smd roundrect (at 2.475 -1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "+5V") (pinfunction "CE") (pintype "input") (tstamp 9219301e-2848-493b-a87f-f69b5f070a4b))
     (pad "9" smd rect (at 0 0) (size 2.3 2.3) (layers "F.Cu" "F.Mask") (tstamp 45957cc8-ad49-4c6f-a426-e48ce6ff0042))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
