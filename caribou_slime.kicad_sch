@@ -1747,7 +1747,7 @@
     (property "Value" "100nF" (at 234.95 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical" (at 232.1052 54.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 232.1052 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.14 50.8 0)
