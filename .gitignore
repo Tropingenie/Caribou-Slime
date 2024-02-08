@@ -1,4 +1,8 @@
 Outputs/
+Outputs.zip
+*.png
+*.pdf
+*.webp
 
 # Autosave
 \#auto_saved_files\#

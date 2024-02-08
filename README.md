@@ -27,3 +27,13 @@ Assistance from various sources was used in this project, in addition to readily
 - [KounoLab](https://store.kouno.xyz/products/bmi270-breakout-board) for additional BMI270 schematics
 - @simp_360 on Discord for diode and passive component selection
 - [Lupinixx](https://github.com/Lupinixx/SlimeVR-Hyperion-BMI160-PCB) and [Smeltie](https://github.com/Smeltie/Hyperion) for the Hyperion case and board outline
+
+## License
+This project is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal. See [LICENSE](LICENSE) for full DEP5 formatted REUSE compliant listing of all licensing.
+
+>Copyright Pon Pon 2024.\
+This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
+You may redistribute and modify this source and make products using it under the terms of the [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt).\
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.\
+Source location: https://github.com/Tropingenie/Caribou-Slime \
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the silkscreen of the PCB or other products you make using this source.
