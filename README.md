@@ -29,7 +29,7 @@ Assistance from various sources was used in this project, in addition to readily
 - [Lupinixx](https://github.com/Lupinixx/SlimeVR-Hyperion-BMI160-PCB) and [Smeltie](https://github.com/Smeltie/Hyperion) for the Hyperion case and board outline
 
 ## License
-This project is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal. See [LICENSE](LICENSE) for full DEP5 formatted REUSE compliant listing of all licensing.
+This project is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal. See [LICENSE](LICENSE) for full DEP5 formatted REUSE compliant listing of all licensing. For instructions on how to use this design, please refer to the CERN-OHL-S [user guide](cern_ohl_s_v2_user_guide.pdf).
 
 >Copyright Pon Pon 2024.\
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
