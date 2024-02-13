@@ -48,7 +48,13 @@
           "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "lib_footprint_mismatch|60774000|31345500|f5ba4365-de29-427e-8e54-3c78ceabffb4|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|79248000|50038000|afe40e91-011f-4245-b9b8-767b6cbbb6de|00000000-0000-0000-0000-000000000000",
@@ -185,8 +191,16 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.4572
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
