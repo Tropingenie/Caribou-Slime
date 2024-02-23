@@ -16,6 +16,10 @@ package.json
 Drill_*
 Gerber_*
 
+# Machine specific
+BNO_Holes.kicad_pcb
+BNO085.kicad_pcb
+
 # GitHub Template below
 
 # For PCBs designed using KiCad: https://www.kicad.org/
