@@ -47,7 +47,7 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 13826b4b-55d7-4c08-8a54-fceff0cf66a2))
   (fp_line (start 9 11.35) (end 9 -11.35)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 816ffb34-815b-4adf-ad2c-922c29ad63b0))
-  (pad "0" thru_hole custom (at 7.62 7.88) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "0" smd custom (at 7.62 7.88) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -60,7 +60,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp ba5f912f-6d2c-429d-a512-4a1ea9c2a8fb))
-  (pad "1" thru_hole custom (at 7.62 5.34) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "1" smd custom (at 7.62 5.34) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -73,7 +73,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 7485c0a8-5635-49be-b83c-0f9d45b63c44))
-  (pad "2" thru_hole custom (at 7.62 2.8) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "2" smd custom (at 7.62 2.8) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -86,7 +86,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp cd2210fe-944e-4e8f-a550-ed639ae8523c))
-  (pad "3" thru_hole custom (at 7.62 0.26) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "3" smd custom (at 7.62 0.26) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -99,7 +99,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 5bd9f79f-d683-48b4-b983-c6ee3178012f))
-  (pad "3.3" thru_hole custom (at 7.62 -4.82) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "3.3" smd custom (at 7.62 -4.82) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -112,7 +112,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp f69c673c-39a2-4980-884c-0368ea55cabb))
-  (pad "4" thru_hole custom (at 7.62 -2.28) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "4" smd custom (at 7.62 -2.28) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -125,7 +125,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp f4f53b74-05ef-4201-bdee-74a797dae1dc))
-  (pad "5" thru_hole custom (at -7.62 -9.9) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "5" smd custom (at -7.62 -9.9) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -138,7 +138,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp d76c6dfb-1fe3-4480-bd96-8e861cabaa43))
-  (pad "5V" thru_hole custom (at 7.62 -9.9) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "5V" smd custom (at 7.62 -9.9) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -151,7 +151,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 6ee25727-7bdb-4e7d-9c95-e4e21485f73e))
-  (pad "6" thru_hole custom (at -7.62 -7.36) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "6" smd custom (at -7.62 -7.36) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -164,7 +164,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp d7315dbf-5ad7-4478-b639-3239321e9865))
-  (pad "7" thru_hole custom (at -7.62 -4.82) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "7" smd custom (at -7.62 -4.82) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -177,7 +177,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 9084c494-26ad-4245-9262-00f78baa040e))
-  (pad "8" thru_hole custom (at -7.62 -2.28) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "8" smd custom (at -7.62 -2.28) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -190,7 +190,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 7548c8d3-405e-4752-bc47-3101f27e1d78))
-  (pad "9" thru_hole custom (at -7.62 0.26) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "9" smd custom (at -7.62 0.26) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -203,7 +203,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp fc963861-faa7-48d3-8bc9-74441e0427a1))
-  (pad "10" thru_hole custom (at -7.62 2.8) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "10" smd custom (at -7.62 2.8) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -216,7 +216,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 217d65be-0534-4c50-9240-437a931b348b))
-  (pad "20" thru_hole custom (at -7.62 5.34) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "20" smd custom (at -7.62 5.34) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -229,7 +229,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp dcadf957-fd00-4612-a6ca-0e0782a1b401))
-  (pad "21" thru_hole custom (at -7.62 7.88) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "21" smd custom (at -7.62 7.88) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -242,7 +242,7 @@
         )
         (width 0.2) (fill yes))
     ) (tstamp 49d0a774-3ab5-4341-8ef0-d4db8779a0a5))
-  (pad "G" thru_hole custom (at 7.62 -7.36) (size 1.905 1.905) (drill 1.27) (layers "*.Cu" "*.Mask")
+  (pad "G" smd custom (at 7.62 -7.36) (size 1.905 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90)
     (options (clearance outline) (anchor circle))
     (primitives
