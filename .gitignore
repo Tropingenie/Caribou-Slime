@@ -7,6 +7,15 @@
 # npm crap
 package.json
 
+# Images
+*.jpg
+*.png
+
+# Outputs
+*.zip
+Drill_*
+Gerber_*
+
 # GitHub Template below
 
 # For PCBs designed using KiCad: https://www.kicad.org/
