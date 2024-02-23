@@ -3022,7 +3022,7 @@
     (property "Value" "~" (at 41.91 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 41.91 181.61 0)
+    (property "Footprint" "BNO:BNO085_Module" (at 41.91 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 41.91 181.61 0)
