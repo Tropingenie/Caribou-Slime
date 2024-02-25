@@ -4476,6 +4476,11 @@
       (net 22 "SCL") (pinfunction "SCX") (pintype "input") (solder_mask_margin 0.102) (tstamp 912fe5ef-cc4f-46fa-8a49-d8baf286da9e))
     (pad "14" smd rect (at -0.5 -1.0995 180) (size 0.849 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 21 "SDA") (pinfunction "SDX") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp 51f179e4-f598-4d7b-af6c-02311e268247))
+    (model "${KIPRJMOD}/eCAD/BMI270/BMI270.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
@@ -4972,6 +4977,11 @@
           )
           (width 0.2) (fill yes))
       ) (tstamp d748409f-fa7f-446c-9905-849193d0b93a))
+    (model "${KIPRJMOD}/eCAD/ESP32-C3_SUPERMINI/ESP32-C3_supermini_v5.step"
+      (offset (xyz -20 -6.5 -3.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 -180 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
