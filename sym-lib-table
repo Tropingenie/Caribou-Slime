@@ -7,4 +7,5 @@
   (lib (name "DW01A")(type "KiCad")(uri "${KIPRJMOD}/eCAD/TP4056_Board/DW01A.kicad_sym")(options "")(descr ""))
   (lib (name "BNO")(type "KiCad")(uri "${KIPRJMOD}/eCAD/BNO/BNO.kicad_sym")(options "")(descr ""))
   (lib (name "M3406")(type "KiCad")(uri "${KIPRJMOD}/eCAD/M3406.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC_4054")(type "KiCad")(uri "${KIPRJMOD}/eCAD/LTC_4054.kicad_sym")(options "")(descr ""))
 )
